@@ -1,10 +1,10 @@
 /.metadata/
 **/target/**
 *.class
-.project
+
 *.iml
 ***.prefs
-.classpath
+
 *.MF
 *.facet.core.xml
 \.settings
