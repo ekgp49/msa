@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    producer:
+      path: /producer/**
+      service-id: EMPLOYEE-PRODUCER #유레카 서버랑 연동해서 매핑할 인스턴스 명.. 유레카 서버를 쓸 것이 아니면 service-id 대신 url 쓰면된다.
+      
+server:
+    port: 8079
+    
+spring:  application:    name: employee-zuul-service

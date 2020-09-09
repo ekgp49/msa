@@ -1,0 +1,8 @@
+server:
+  port: 8091
+  
+ribbon:
+  maxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  ConnectTimeout: 10000
+  ReadTimeout: 60000

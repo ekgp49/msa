@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: native
+  cloud:    config:      server:        native:          search-locations: classpath:/common-configspring.boot.admin.client.url: http://localhost:8093
+spring.boot.admin.client.username: admin
+spring.boot.admin.client.password: admin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+server:  port: 8888
+ 
