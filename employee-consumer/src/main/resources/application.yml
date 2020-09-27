@@ -1,8 +1,9 @@
 server:
   port: 8091
   
-ribbon:
-  maxAutoRetries: 1
-  MaxAutoRetriesNextServer: 2
-  ConnectTimeout: 10000
-  ReadTimeout: 60000
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/msa
+    username: root
+    password: 1111
+    driver-class-name: org.mariadb.jdbc.Driver

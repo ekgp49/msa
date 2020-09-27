@@ -17,9 +17,9 @@ class ConsumerApplication {
 	public static void main(String[] args) throws RestClientException, IOException {
 		ApplicationContext ctx = SpringApplication.run(ConsumerApplication.class, args);
 		
-		ConsumerControllerClient consumerControllerClient = ctx.getBean(ConsumerControllerClient.class);
-		System.out.println(consumerControllerClient);
-		consumerControllerClient.getEmployee();
+//		ConsumerControllerClient consumerControllerClient = ctx.getBean(ConsumerControllerClient.class);
+//		System.out.println(consumerControllerClient);
+//		consumerControllerClient.getEmployee();
 		
 	}
 	
